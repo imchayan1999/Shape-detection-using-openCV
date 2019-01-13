@@ -45,8 +45,6 @@ def detectShape(cnt):
     elif len(vertices) == 6:
         shape = "hexagon"
     
-    elif len(vertices) == 7:
-        shape = "heptagon"
     
     else:
         shape = "circle"
